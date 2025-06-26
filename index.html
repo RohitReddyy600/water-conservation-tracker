@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Conservation Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">AquaSave</div>
+            <ul class="nav-links">
+                <li><a href="#impact">Impact</a></li>
+                <li><a href="#track">Track</a></li>
+                <li><a href="#tips">Tips</a></li>
+                <li><a href="#login">Login</a></li>
+                <li><a href="#signup">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+->
+<section id="hero" class="hero-section">
+    <div class="hero-content">
+        <h1>Welcome to AquaSave 🌊</h1>
+        <p>Join us in conserving water and making a difference for future generations.</p>
+        <p>Track your water savings, learn impactful tips, and understand the importance of water conservation.</p>
+        <button id="getStartedButton">Get Started</button>
+    </div>
+</section>
+
+    <section id="signup" class="form-section">
+        <h2>Create Account</h2>
+        <form id="signupForm">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+
+    <section id="login" class="form-section">
+        <h2>Welcome Back</h2>
+        <form id="loginForm">
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <section id="impact" class="content-section">
+        <h2>Water Scarcity Impact</h2>
+        <div class="content-box">
+            <h1>Impact of Water Scarcity</h1>
+
+<p><strong>1. Health Issues:</strong> Lack of clean water leads to diseases like cholera, dysentery, and typhoid. Poor sanitation increases infant mortality rates.</p>
+
+<p><strong>2. Food Shortages:</strong> Agriculture relies on water, and scarcity leads to crop failures. Livestock suffers, leading to reduced food supply and increased prices.</p>
+
+<p><strong>3. Economic Consequences:</strong> Industries depending on water (textiles, manufacturing, agriculture) slow down or shut down, leading to job losses and economic instability.</p>
+
+<p><strong>4. Environmental Degradation:</strong> Rivers and lakes dry up, affecting aquatic life. Deforestation and desertification increase due to lack of water for vegetation.</p>
+
+<p><strong>5. Social Conflicts:</strong> Water scarcity leads to disputes between communities, states, or even nations. Rural populations migrate to cities, increasing urban overcrowding.</p>
+
+<p>&copy; 2025 Water Conservation Initiative</p>
+
+
+        </div>
+    </section>
+
+    <section id="track" class="content-section">
+        <h2>Track Water Savings</h2>
+        <div class="content-box">
+            <form id="trackerForm">
+                <section id="track" class="content-section">
+                    <h2>Track Water Savings</h2>
+                    <div class="content-box">
+                        <form id="trackerForm">
+                            <div class="form-group">
+                                <label>Date</label>
+                                <input type="date" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label>Time</label>
+                                <input type="time" required>
+                            </div>
+                
+                            <div class="form-group">
+                                <label>Liters Saved</label>
+                                <input type="number" min="1" placeholder="e.g., 20" required>
+                            </div>
+                
+                            <div class="form-group">
+                                <label>Activity Type</label>
+                                <select required>
+                                    <option value="">Select activity</option>
+                                    <option>Shower/Bathing</option>
+                                    <option>Laundry</option>
+                                    <option>Dishwashing</option>
+                                    <option>Gardening</option>
+                                    <option>Cooking</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+                
+                            <div class="form-group">
+                                <label>Conservation Method</label>
+                                <select required>
+                                    <option value="">Select method</option>
+                                    <option>Low-flow showerhead</option>
+                                    <option>Rainwater harvesting</option>
+                                    <option>Leak repair</option>
+                                    <option>Smart irrigation</option>
+                                    <option>Water reuse</option>
+                                </select>
+                            </div>
+                
+                            <div class="form-group">
+                                <label>Notes</label>
+                                <textarea placeholder="E.g., Fixed leaking faucet"></textarea>
+                            </div>
+                
+                            <button type="submit">Save Conservation Entry</button>
+                        </form>
+                    </div>
+                </section>
+                
+            </form>
+        </div>
+    </section>
+
+    <section id="tips" class="content-section">
+        <h2>Conservation Tips</h2>
+        <div class="content-box">
+            <section id="tips" class="content-section">
+                <h2>Water Conservation Strategies</h2>
+                <div class="content-box">
+                    <div class="tip-card">
+                        <h3>🏠 At Home</h3>
+                        <ul>
+                            <li>Fix leaks immediately (1 drip/sec = 11,000L/year wasted) [2][3][7]</li>
+                            <li>Install low-flow showerheads (Save 9L/min) [2][6][7]</li>
+                            <li>Run full dishwasher loads only [2][3]</li>
+                            <li>Turn off tap while brushing (Save 6L/min) [3][6]</li>
+                            <li>Use dual-flush toilets (Save 13L/flush) [3][8]</li>
+                        </ul>
+                    </div>
+            
+                    <div class="tip-card">
+                        <h3>🌳 Outdoors</h3>
+                        <ul>
+                            <li>Water plants early morning (30-60% less evaporation) [2][8]</li>
+                            <li>Use drip irrigation systems (50% more efficient) [8]</li>
+                            <li>Install rain barrels (Collect 700L from 100m² roof) [3][8]</li>
+                            <li>Plant native species (60% less watering needed) [8]</li>
+                            <li>Use mulch around plants (Reduces evaporation by 75%) [2][8]</li>
+                        </ul>
+                    </div>
+            
+                    <div class="tip-card">
+                        <h3>📱 Smart Solutions</h3>
+                        <ul>
+                            <li>Use water tracking apps (20% avg. reduction) [1][5]</li>
+                            <li>Install smart irrigation controllers (35% savings) [8]</li>
+                            <li>Try aerated faucet attachments (4L/min → 2L/min) [6][8]</li>
+                            <li>Monitor usage with home audits [3][5]</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
